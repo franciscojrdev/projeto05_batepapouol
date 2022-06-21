@@ -1,0 +1,89 @@
+/* cores 
+logo e input de texto: 
+rgba(255, 255, 255, 1)
+cor de fundo
+#f3f3f3
+ao entrar na mensagem
+#DCDCDC
+todos
+#FFFFFF
+privada
+#FFDEDE
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b1b3b2;
+}
+
+.container {
+    height: 100vh;
+    width: 375px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+}
+
+.topo {
+    width: 375px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 5px 5px gainsboro;
+}
+
+.topo ion-icon {
+    width: 45px;
+    height: 35px;
+}
+
+.topo img {
+    width: 75px;
+    height: 53px;
+}
+
+.botao {
+    width: 375px;
+    height: 80px;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    left: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.conteudo{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+ul li{
+    margin-top: 20px;
+ }
+.botao ion-icon {
+    height: 26px;
+    width: 26px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+}
+input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
