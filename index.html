@@ -13,34 +13,19 @@
 </head>
 
 <body>
-    <!-- icones
-    perfil
-    <ion-icon name="people"></ion-icon>
-    send button
-    <ion-icon name="paper-plane-outline"></ion-icon>
-    navbar perfil
-    <ion-icon name="person-circle"></ion-icon>
-    cadeano
-    <ion-icon name="lock-closed"></ion-icon>
-    cadeado open
-    <ion-icon name="lock-open"></ion-icon>
-    -->
     <div class="container">
         <div class="topo">
             <img src="img/logo 1.png" alt="logo">
             <ion-icon name="people"></ion-icon>
         </div>
-        <div class="conteudo">
-            <ul>
-                <!-- <li><p><span>(09:22:48)</span> <strong>João</strong>  reservadamente para <strong>Maria</strong> :  Oi gatinha quer tc?</p></li> -->
-            </ul>
-        </div>
+        <ul class="main">
+        </ul>
         <div class="botao">
             <input type="text" placeholder="Escreva Aqui...">
-            <ion-icon name="paper-plane-outline"></ion-icon>
+            <ion-icon onclick="enviar()" name="paper-plane-outline"></ion-icon>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="js/script.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>

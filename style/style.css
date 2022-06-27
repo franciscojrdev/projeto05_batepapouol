@@ -17,12 +17,12 @@ privada
 }
 
 body {
-    background-color: #b1b3b2;
+    background-color: #918d8d;
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    height: 100vh;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     background-color: #f3f3f3;
@@ -65,41 +65,42 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    box-shadow: 0 -2px 5px gainsboro;
 }
 
-.conteudo {
+.main {
     width: 100%;
     background-color: #f3f3f3;
-    height: 100%;
+    height: auto;
     margin-top: 80px;
     margin-bottom: 80px;
-    position: absolute;
     padding-top: 26px;
 }
 
-ul li {
+.main li {
     height: auto;
     padding: 10px 8px;
     margin-bottom: 10px;
-    background-color: #FFDEDE;
     display: flex;
     align-items: center;
 }
 
-li p{
+li p {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
     line-height: 20px;
+    word-break: break-all;
 
 }
-li p strong{
+
+li p strong {
     font-weight: 700;
 }
 
-li span{
+li span {
     color: #AAAAAA;
 }
 
@@ -120,3 +121,20 @@ input::placeholder {
     font-size: 18px;
     font-weight: 400;
 }
+
+/* entrada e saida da sala */
+.color1 {
+    background-color: #DCDCDC;
+}
+
+/* mensagem para todos ou publica */
+.color2 {
+    background-color: #FFFFFF;
+}
+
+/* esnaegm privada */
+.color3 {
+    background-color: #FFDEDE;
+}
+
+
